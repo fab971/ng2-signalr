@@ -3,6 +3,16 @@
 ![live demo](https://img.shields.io/badge/demo-live-orange.svg)
 [![Coverage Status](https://coveralls.io/repos/github/HNeukermans/ng2-signalr/badge.svg?branch=master)](https://coveralls.io/github/HNeukermans/ng2-signalr?branch=master)
 [![Build Status](https://travis-ci.org/HNeukermans/ng2-signalr.svg?branch=master)](https://travis-ci.org/HNeukermans/ng2-signalr)
+
+# Notes:
+
+This plugin is forked from :
+
+- https://github.com/HNeukermans/ng2-signalr
+
+It allows to access primitive connection and proxy objects. I needed to be able to change qs parameter after creating connection object (not only at creation)
+
+
 # ng2-signalr
 An angular typescript library that allows you to connect to Asp.Net SignalR
 

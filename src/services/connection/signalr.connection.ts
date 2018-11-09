@@ -35,6 +35,13 @@ export class SignalRConnection implements ISignalRConnection {
         return this._status;
     }
 
+    public get pConnection() {
+        return this._jConnection;
+    }
+    public get pProxy() {
+        return this._jProxy;
+    }
+
     public start(): Promise<ISignalRConnection> {
 
         const jTransports = this.convertTransports(this._configuration.transport);
